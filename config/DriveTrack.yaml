@@ -1,0 +1,6 @@
+behaviors:
+  DriveTrack:
+    trainer_type: ppo
+    max_steps: 15000000
+    time_horizon: 64
+    summary_freq: 50000
